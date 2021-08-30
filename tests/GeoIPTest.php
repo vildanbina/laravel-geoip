@@ -1,6 +1,6 @@
 <?php
 
-namespace bexvibi\GeoIP\Tests;
+namespace vildanbina\GeoIP\Tests;
 
 use Mockery;
 
@@ -29,7 +29,7 @@ class GeoIPTest extends TestCase
         $config = $this->getConfig()['services']['maxmind_database'];
         unset($config['class']);
 
-        $this->assertInstanceOf(\bexvibi\GeoIP\Contracts\ServiceInterface::class, $geo_ip->getService());
+        $this->assertInstanceOf(\vildanbina\GeoIP\Contracts\ServiceInterface::class, $geo_ip->getService());
     }
 
     /**
@@ -39,6 +39,6 @@ class GeoIPTest extends TestCase
     {
         $geo_ip = $this->makeGeoIP();
 
-        $this->assertInstanceOf(\bexvibi\GeoIP\Cache::class, $geo_ip->getCache());
+        $this->assertInstanceOf(\vildanbina\GeoIP\Cache::class, $geo_ip->getCache());
     }
 }

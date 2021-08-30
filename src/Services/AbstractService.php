@@ -1,10 +1,10 @@
 <?php
 
-namespace bexvibi\GeoIP\Services;
+namespace vildanbina\GeoIP\Services;
 
-use bexvibi\GeoIP\Location;
+use vildanbina\GeoIP\Location;
 use Illuminate\Support\Arr;
-use bexvibi\GeoIP\Contracts\ServiceInterface;
+use vildanbina\GeoIP\Contracts\ServiceInterface;
 
 abstract class AbstractService implements ServiceInterface
 {

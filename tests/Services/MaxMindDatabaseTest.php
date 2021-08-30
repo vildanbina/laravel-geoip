@@ -1,8 +1,8 @@
 <?php
 
-namespace bexvibi\GeoIP\Tests\Services;
+namespace vildanbina\GeoIP\Tests\Services;
 
-use bexvibi\GeoIP\Tests\TestCase;
+use vildanbina\GeoIP\Tests\TestCase;
 
 class MaxMindDatabaseTest extends TestCase
 {
@@ -25,7 +25,7 @@ class MaxMindDatabaseTest extends TestCase
 
         $location = $service->locate('81.2.69.142');
 
-        $this->assertInstanceOf(\bexvibi\GeoIP\Location::class, $location);
+        $this->assertInstanceOf(\vildanbina\GeoIP\Location::class, $location);
         $this->assertEquals($location->ip, '81.2.69.142');
         $this->assertEquals($location->default, false);
     }

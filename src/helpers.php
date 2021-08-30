@@ -6,7 +6,7 @@ if (!function_exists('geoip')) {
      *
      * @param string $ip
      *
-     * @return \bexvibi\GeoIP\GeoIP|\bexvibi\GeoIP\Location
+     * @return \vildanbina\GeoIP\GeoIP|\vildanbina\GeoIP\Location
      */
     function geoip($ip = null)
     {

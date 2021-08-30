@@ -1,6 +1,6 @@
 <?php
 
-namespace bexvibi\GeoIP\Facades;
+namespace vildanbina\GeoIP\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace bexvibi\GeoIP\Tests;
+namespace vildanbina\GeoIP\Tests;
 
 use Mockery;
 
@@ -25,7 +25,7 @@ class CacheTest extends TestCase
 
         $location = $geo_ip->getCache()->get($data['ip']);
 
-        $this->assertInstanceOf(\bexvibi\GeoIP\Location::class, $location);
+        $this->assertInstanceOf(\vildanbina\GeoIP\Location::class, $location);
         $this->assertEquals($location->ip, $data['ip']);
         $this->assertEquals($location->default, false);
     }
@@ -50,7 +50,7 @@ class CacheTest extends TestCase
      */
     public function shouldSetLocation()
     {
-        $location = new \bexvibi\GeoIP\Location([
+        $location = new \vildanbina\GeoIP\Location([
             'ip' => '81.2.69.142',
             'iso_code' => 'US',
             'lat' => 41.31,

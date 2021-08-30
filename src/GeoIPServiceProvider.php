@@ -1,6 +1,6 @@
 <?php
 
-namespace bexvibi\GeoIP;
+namespace vildanbina\GeoIP;
 
 use Illuminate\Support\Str;
 use Illuminate\Support\ServiceProvider;

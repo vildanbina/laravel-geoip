@@ -1,6 +1,6 @@
 <?php
 
-namespace bexvibi\GeoIP\Tests;
+namespace vildanbina\GeoIP\Tests;
 
 use Mockery;
 use PHPUnit\Framework\TestCase as PHPUnitTestCase;
@@ -25,9 +25,9 @@ class TestCase extends PHPUnitTestCase
 
         $config = array_merge($this->getConfig(), $config);
 
-        $cacheMock->shouldReceive('tags')->with(['bexvibi-geoip-location'])->andReturnSelf();
+        $cacheMock->shouldReceive('tags')->with(['vildanbina-geoip-location'])->andReturnSelf();
 
-        return new \bexvibi\GeoIP\GeoIP($config, $cacheMock);
+        return new \vildanbina\GeoIP\GeoIP($config, $cacheMock);
     }
 
     protected function getConfig()

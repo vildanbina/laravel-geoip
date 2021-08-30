@@ -52,21 +52,21 @@ return [
     'services' => [
 
         'maxmind_database' => [
-            'class' => \bexvibi\GeoIP\Services\MaxMindDatabase::class,
+            'class' => \vildanbina\GeoIP\Services\MaxMindDatabase::class,
             'database_path' => storage_path('app/geoip.mmdb'),
             'update_url' => sprintf('https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key=%s&suffix=tar.gz', env('MAXMIND_LICENSE_KEY')),
             'locales' => ['en'],
         ],
 
         'maxmind_api' => [
-            'class' => \bexvibi\GeoIP\Services\MaxMindWebService::class,
+            'class' => \vildanbina\GeoIP\Services\MaxMindWebService::class,
             'user_id' => env('MAXMIND_USER_ID'),
             'license_key' => env('MAXMIND_LICENSE_KEY'),
             'locales' => ['en'],
         ],
 
         'ipapi' => [
-            'class' => \bexvibi\GeoIP\Services\IPApi::class,
+            'class' => \vildanbina\GeoIP\Services\IPApi::class,
             'secure' => true,
             'key' => env('IPAPI_KEY'),
             'continent_path' => storage_path('app/continents.json'),
@@ -74,7 +74,7 @@ return [
         ],
 
         'ipgeolocation' => [
-            'class' => \bexvibi\GeoIP\Services\IPGeoLocation::class,
+            'class' => \vildanbina\GeoIP\Services\IPGeoLocation::class,
             'secure' => true,
             'key' => env('IPGEOLOCATION_KEY'),
             'continent_path' => storage_path('app/continents.json'),
@@ -82,13 +82,13 @@ return [
         ],
 
         'ipdata' => [
-            'class'  => \bexvibi\GeoIP\Services\IPData::class,
+            'class'  => \vildanbina\GeoIP\Services\IPData::class,
             'key'    => env('IPDATA_API_KEY'),
             'secure' => true,
         ],
 
         'ipfinder' => [
-            'class'  => \bexvibi\GeoIP\Services\IPFinder::class,
+            'class'  => \vildanbina\GeoIP\Services\IPFinder::class,
             'key'    => env('IPFINDER_API_KEY'),
             'secure' => true,
             'locales' => ['en'],
@@ -124,7 +124,7 @@ return [
     |
     */
 
-    'cache_tags' => ['bexvibi-geoip-location'],
+    'cache_tags' => ['vildanbina-geoip-location'],
 
     /*
     |--------------------------------------------------------------------------

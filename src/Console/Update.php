@@ -1,6 +1,6 @@
 <?php
 
-namespace bexvibi\GeoIP\Console;
+namespace vildanbina\GeoIP\Console;
 
 use Illuminate\Console\Command;
 

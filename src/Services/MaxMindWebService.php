@@ -1,6 +1,6 @@
 <?php
 
-namespace bexvibi\GeoIP\Services;
+namespace vildanbina\GeoIP\Services;
 
 use GeoIp2\WebService\Client;
 

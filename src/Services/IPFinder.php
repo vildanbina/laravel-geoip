@@ -1,14 +1,14 @@
 <?php
 
-namespace bexvibi\GeoIP\Services;
+namespace vildanbina\GeoIP\Services;
 
 use Exception;
 use Illuminate\Support\Arr;
-use bexvibi\GeoIP\Support\HttpClient;
+use vildanbina\GeoIP\Support\HttpClient;
 
 /**
  * Class GeoIP
- * @package bexvibi\GeoIP\Services
+ * @package vildanbina\GeoIP\Services
  */
 class IPFinder extends AbstractService
 {
@@ -29,7 +29,7 @@ class IPFinder extends AbstractService
         $this->client = new HttpClient([
             'base_uri' => 'https://api.ipfinder.io/v1/',
             'headers' => [
-                'User-Agent' => 'Laravel-GeoIP-bexvibi',
+                'User-Agent' => 'Laravel-GeoIP-vildanbina',
             ],
             'query'    => [
                 'token' => $this->config('key'),

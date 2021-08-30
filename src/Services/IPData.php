@@ -1,14 +1,14 @@
 <?php
 
-namespace bexvibi\GeoIP\Services;
+namespace vildanbina\GeoIP\Services;
 
 use Exception;
 use Illuminate\Support\Arr;
-use bexvibi\GeoIP\Support\HttpClient;
+use vildanbina\GeoIP\Support\HttpClient;
 
 /**
  * Class GeoIP
- * @package bexvibi\GeoIP\Services
+ * @package vildanbina\GeoIP\Services
  */
 class IPData extends AbstractService
 {

@@ -17,6 +17,6 @@ if (!function_exists('env')) {
 if (!function_exists('app')) {
     function app($key = null, $default = null)
     {
-        return \bexvibi\GeoIP\Tests\TestCase::$functions->app($key, $default);
+        return \vildanbina\GeoIP\Tests\TestCase::$functions->app($key, $default);
     }
 }

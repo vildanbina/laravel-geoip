@@ -1,6 +1,6 @@
 <?php
 
-namespace bexvibi\GeoIP;
+namespace vildanbina\GeoIP;
 
 use Exception;
 use Monolog\Logger;
@@ -91,7 +91,7 @@ class GeoIP
      *
      * @param string $ip
      *
-     * @return \bexvibi\GeoIP\Location
+     * @return \vildanbina\GeoIP\Location
      */
     public function getLocation($ip = null)
     {
@@ -111,7 +111,7 @@ class GeoIP
      *
      * @param string $ip
      *
-     * @return \bexvibi\GeoIP\Location
+     * @return \vildanbina\GeoIP\Location
      * @throws \Exception
      */
     private function find($ip = null)
@@ -173,7 +173,7 @@ class GeoIP
     /**
      * Get service instance.
      *
-     * @return \bexvibi\GeoIP\Contracts\ServiceInterface
+     * @return \vildanbina\GeoIP\Contracts\ServiceInterface
      * @throws Exception
      */
     public function getService()
@@ -200,7 +200,7 @@ class GeoIP
     /**
      * Get cache instance.
      *
-     * @return \bexvibi\GeoIP\Cache
+     * @return \vildanbina\GeoIP\Cache
      */
     public function getCache()
     {

@@ -1,5 +1,5 @@
 {
-  "name": "bexvibi/geoip",
+  "name": "vildanbina/geoip",
   "description": "Support for multiple GeoIP services.",
   "keywords": [
     "laravel",
@@ -36,7 +36,7 @@
       "src/helpers.php"
     ],
     "psr-4": {
-      "bexvibi\\GeoIP\\": "src/"
+      "vildanbina\\GeoIP\\": "src/"
     }
   },
   "autoload-dev": {
@@ -44,7 +44,7 @@
       "tests/TestFunctions.php"
     ],
     "psr-4": {
-      "bexvibi\\GeoIP\\Tests\\": "tests/"
+      "vildanbina\\GeoIP\\Tests\\": "tests/"
     }
   },
   "extra": {
@@ -53,10 +53,10 @@
     },
     "laravel": {
       "providers": [
-        "bexvibi\\GeoIP\\GeoIPServiceProvider"
+        "vildanbina\\GeoIP\\GeoIPServiceProvider"
       ],
       "aliases": {
-        "GeoIP": "bexvibi\\GeoIP\\Facades\\GeoIP"
+        "GeoIP": "vildanbina\\GeoIP\\Facades\\GeoIP"
       }
     }
   }

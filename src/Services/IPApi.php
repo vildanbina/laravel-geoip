@@ -1,10 +1,10 @@
 <?php
 
-namespace bexvibi\GeoIP\Services;
+namespace vildanbina\GeoIP\Services;
 
 use Exception;
 use Illuminate\Support\Arr;
-use bexvibi\GeoIP\Support\HttpClient;
+use vildanbina\GeoIP\Support\HttpClient;
 
 class IPApi extends AbstractService
 {

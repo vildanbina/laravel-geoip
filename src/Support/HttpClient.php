@@ -1,6 +1,6 @@
 <?php
 
-namespace bexvibi\GeoIP\Support;
+namespace vildanbina\GeoIP\Support;
 
 use Illuminate\Support\Arr;
 

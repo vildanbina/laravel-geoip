@@ -1,6 +1,6 @@
 <?php
 
-namespace bexvibi\GeoIP\Contracts;
+namespace vildanbina\GeoIP\Contracts;
 
 interface ServiceInterface
 {
@@ -17,7 +17,7 @@ interface ServiceInterface
      *
      * @param string $ip
      *
-     * @return \bexvibi\GeoIP\Location
+     * @return \vildanbina\GeoIP\Location
      */
     public function locate($ip);
 
@@ -26,7 +26,7 @@ interface ServiceInterface
      *
      * @param array $attributes
      *
-     * @return \bexvibi\GeoIP\Location
+     * @return \vildanbina\GeoIP\Location
      */
     public function hydrate(array $attributes = []);
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace bexvibi\GeoIP;
+namespace vildanbina\GeoIP;
 
 use ArrayAccess;
 use Illuminate\Support\Str;

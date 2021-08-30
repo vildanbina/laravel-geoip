@@ -1,6 +1,6 @@
 <?php
 
-namespace bexvibi\GeoIP\Services;
+namespace vildanbina\GeoIP\Services;
 
 use PharData;
 use Exception;

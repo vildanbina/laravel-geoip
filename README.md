@@ -1,8 +1,8 @@
 # GeoIP for Laravel
 
 [![Build Status](https://travis-ci.org/vildanbina/laravel-geoip.svg?branch=master)](https://travis-ci.org/vildanbina/laravel-geoip)
-[![Latest Stable Version](https://poser.pugx.org/vildanbina/geoip/v/stable.png)](https://packagist.org/packages/vildanbina/geoip)
-[![Total Downloads](https://poser.pugx.org/vildanbina/geoip/downloads.png)](https://packagist.org/packages/vildanbina/geoip)
+[![Latest Stable Version](https://poser.pugx.org/vildanbina/laravel-geoip/v/stable.png)](https://packagist.org/packages/vildanbina/laravel-geoip)
+[![Total Downloads](https://poser.pugx.org/vildanbina/laravel-geoip/downloads.png)](https://packagist.org/packages/vildanbina/laravel-geoip)
 [![Patreon donate button](https://img.shields.io/badge/patreon-donate-yellow.svg)](https://www.patreon.com/vildanbina)
 [![Donate weekly to this project using Gratipay](https://img.shields.io/badge/gratipay-donate-yellow.svg)](https://gratipay.com/~vildanbina)
 [![Donate to this project using Flattr](https://img.shields.io/badge/flattr-donate-yellow.svg)](https://flattr.com/profile/vildanbina)
@@ -10,7 +10,7 @@
 
 Determine the geographical location and currency of website visitors based on their IP addresses.
 
-- [GeoIP for Laravel on Packagist](https://packagist.org/packages/vildanbina/geoip)
+- [GeoIP for Laravel on Packagist](https://packagist.org/packages/vildanbina/laravel-geoip)
 - [GeoIP for Laravel on GitHub](https://github.com/vildanbina/laravel-geoip)
 - [Upgrade Guides](http://lyften.com/projects/laravel-geoip/doc/upgrade.html)
 

@@ -1,5 +1,5 @@
 {
-  "name": "vildanbina/geoip",
+  "name": "vildanbina/laravel-geoip",
   "description": "Support for multiple GeoIP services.",
   "keywords": [
     "laravel",
